@@ -1,0 +1,8 @@
+.width{
+    width:30rem;
+}
+@media screen and (max-width:600px){
+    .width{
+        width: auto;
+    }
+}

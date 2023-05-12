@@ -1,0 +1,72 @@
+
+.bot{
+    background: rgb(0, 0, 0);
+    margin: auto;
+    display: flex;
+    width: 5rem;
+    justify-content: center;
+    position: fixed;
+    flex-direction: row-reverse;
+    bottom: 0;
+    margin: 1rem;
+    border-radius: 5rem;
+}
+.window{
+    position: fixed;
+    bottom: 0;
+    margin: 5rem 4rem;
+    background: aqua;
+    height: 53vh;
+    width: 50vh;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.window::-webkit-scrollbar{
+    display: none;
+}
+.Head{
+    padding: 0rem 1rem;
+    color: #fff;
+    background: #000;
+    border-radius: 1rem;
+}
+.window{
+    overflow-y: scroll;
+}
+.window .left{
+    padding: 1rem 2rem;
+    background: antiquewhite;
+    margin: 1rem;
+    float: left;
+    border-radius: 0rem 1rem;
+}
+.window .right{
+    padding: 1rem 2rem;
+    background: antiquewhite;
+    margin: 3rem 1rem 1rem;
+    float: right;
+    border-radius: 0rem 1rem;
+}
+.botback{
+    position: fixed;
+    background: #ffa500ad;
+    box-shadow: 0rem 0rem 2rem 0rem;
+    border-radius: 3rem 1rem 2rem 0rem;
+    padding: 1rem;
+    display: grid;
+    bottom: 0;
+    margin: 5rem;
+}
+.icon{
+    background: url('../logo.svg');
+    height: 8%;
+    width: 6%;
+    display: flex;
+    background-color: black;
+    background-repeat: no-repeat;
+    position: fixed;
+    /* background: currentColor; */
+    border-radius: 13rem;
+    bottom: 0;
+    margin: 1rem;
+}

@@ -1,0 +1,15 @@
+.footers{
+    height: 70vh;
+    background: repeating-linear-gradient(115deg, black, #140e0efa 52rem);
+  display: flex;
+    color: #fff;
+    bottom: 0;
+    justify-content: space-evenly;
+    position: initial;
+}
+.col-1{
+    width:42rem;
+}
+.col-2{
+    display: flex;
+}

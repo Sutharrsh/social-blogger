@@ -1,0 +1,51 @@
+
+.PostPage{
+  
+    padding: 7rem 0rem;
+  }
+  
+  .PostPage .form{
+    display: grid;
+    text-align: initial;
+    padding: 1rem;
+    margin: 2rem auto;
+    background: #ff45009e;
+    color: #fff;
+    border-radius: 2rem;
+    width: 20rem;
+  }
+  
+.PostPage .form:hover{
+    box-shadow: 0rem 0rem 2.4rem 0rem firebrick;
+    cursor: pointer;
+  
+  }
+
+  
+.PostPage .form input{
+ 
+    padding: 1rem;
+    color: coral;
+    border-radius: 2rem;
+    width: 14rem;
+    margin: 1rem 0rem;
+    border: none;
+    padding: 1rem 3rem;
+  }
+
+  .PostPage .form button{
+    padding: 1rem;
+    color: coral;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    
+    padding: 1rem 3rem;
+    border: none;
+    width: 20rem;
+  }
+  
+.PostPage .form button:hover{
+
+    transition: 0.2s;
+    background: #282c34;
+  }

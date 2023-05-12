@@ -1,0 +1,92 @@
+.PostPage .form-post{
+    display: flex;
+    text-align: initial;
+    padding: 1rem;
+    margin: 2rem auto;
+    color: #fff;
+    width: 50%;
+    height: auto;
+  justify-content: center;
+  }
+
+  .PostPage{
+    background: url('/public/assets/logss.jpg') no-repeat;
+    background-size: cover;
+    
+    background-color: orangered;
+    background-blend-mode: luminosity;
+  }  
+.PostPage .form-post-mn{
+    display: grid;
+    width: fit-content;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    background: #ff45009e;
+  }
+  .flex{
+    display: flex;
+    margin:1rem;
+  }
+  .grid{
+    display: grid;
+    margin: 1rem;
+  }
+  textarea{
+    border: none;
+    border-radius: 1rem;
+    width: 23rem;
+    margin:1rem;
+    height: 6rem;
+    padding: 0.5rem;
+  }
+  .ul ul {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    right: 1rem;
+    top: 1rem;
+    position: relative;
+  }
+  .PostPage .form-post-mn input[type="text"]{
+   
+    padding: 1rem;
+    color: coral;
+    border-radius: 2rem;
+    width: 14rem;
+    margin: 1rem 0rem;
+    border: none;
+    padding: 1rem 3rem;
+  }
+  
+.PostPage input[type="submit"]{
+    padding: 1rem;
+    color: coral;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    width: 50%;
+    
+    border: none;
+  }
+  
+  .PostPage input[type="submit"]:hover{
+
+    transition: 0.2s;
+    background: #282c34;
+  }
+  .data{
+    
+    display: grid;
+    justify-content: center;
+  }
+  .data span{
+    
+    background: #000;
+    border: 2px solid #fff;
+    border-radius: 0rem 1rem 1rem 1rem;
+    color: #fff;
+    
+  }

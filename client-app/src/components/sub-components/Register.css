@@ -1,0 +1,75 @@
+.Block{
+        display: grid;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg{
+    background: url('./a-young-woman-is-meditating-on-the-top-of-a-mountain-where-she-is-facing-another-mountain-where-the-buddha-statue-in-sitting-position-on-the-peak-of-the-mountain-vector.jpg');
+    background-size: cover;
+    height: auto;
+    background-color: saddlebrown;
+    background-blend-mode: overlay;
+padding: 2rem 0rem;
+}
+.logo{
+    margin:1rem;
+}
+label{
+    font-size: 0.9rem;
+    color: #999;
+}
+span{
+    font-size: 1.5rem;
+    color: #f55f28;
+}
+input{
+    font-size: 1rem;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    margin: 0.7rem;
+    border: 0.1rem solid #555;
+    background: #eee;
+}
+input[type=submit]{
+    background: coral;
+    color: #fff;
+    border:none;
+}
+input[type=button]{
+    background: coral;
+    color: #fff;
+    width:100%;
+    border:none;
+    margin: 1rem auto;
+}
+input[type=button]:hover{
+    background:#fff;
+    color:coral;
+    border: 1px solid coral;
+    width:100%;
+    transition: .4s;
+    
+}
+input[type=submit]:hover{
+    background:#fff;
+    color:coral;
+    border: 1px solid coral;
+    transition: .4s;
+}
+.container{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+  /*  border: 0.1rem solid midnightblue;*/
+    margin: 1rem;
+}
+@media screen and (max-width:600px){
+    input{
+        width:100%;
+        margin: 1rem auto;
+    }
+}

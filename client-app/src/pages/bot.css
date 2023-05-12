@@ -1,0 +1,49 @@
+ .bot{
+    position: fixed;
+    bottom: 0;
+    background: #ff7f50ab;
+    height: 76vh;
+    margin: 1rem;
+    border-radius: 1rem;
+    width:18rem;
+    box-shadow: 0rem 0rem 1rem 0rem firebrick;
+}
+input[type='text']{
+
+        border: none;
+        border-radius: 1rem 0rem 0rem 1rem;
+        padding: 0.4em;
+    
+}
+input[type='submit']{
+    border: none;
+    padding: 0.4em;
+    border-radius: 0rem 1rem 1rem 0rem;
+    margin: 0rem 0rem 1rem;
+}
+.body{
+    height:20rem;
+    margin:1rem;
+}
+.bot .title{
+    background: aliceblue;
+    padding: 1.3rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.body .right{
+    background: aliceblue;
+    border-radius: 1rem;
+    margin-left: 11rem;
+}
+
+.body .left{
+    background: aliceblue;
+    border-radius: 1rem;
+}
+.blur{
+    height: 100vh;
+    position: fixed;
+    background: #000000a6;
+    width: 100%;
+} 

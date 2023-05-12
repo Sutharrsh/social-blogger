@@ -1,0 +1,114 @@
+
+.Profile-Container .Basic-Info h5{
+  padding: 4rem 0rem 0rem 0rem;
+  background: linear-gradient(177deg, #fd5c5c, transparent);
+  /* border-bottom: 1px solid #000; */
+  color: #fff;
+  }
+  
+.Profile-Container .Basic-Info h5 .img{
+  background: #eee;
+  width: 15rem;
+  /* border-radius: 7rem; */
+  margin: auto;
+  box-shadow: 0px 0px 3px 0px #000;
+  
+}
+.bio span{
+  margin: 1rem;
+  background: orangered;
+  padding: 0.4rem 14.45px;
+  border-radius: 2rem;
+}
+
+.bio span:hover{
+  transition: 0.3s;
+  color: #000;
+  background:linear-gradient(177deg, #fd5c5c, transparent);
+}
+.bio {
+  margin: 1rem;
+}
+.sub-nav {
+  top: 2rem;
+  position: relative;
+  background: orangered;
+}
+.sub-nav button{
+  border: none;
+    background: black;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: orangered;
+  background: black;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+  margin: 0.5rem;
+}
+#Edit{
+
+  display: grid;
+  width: 19rem;
+  margin: 2rem auto;
+  /* padding: 2rem; */
+  background: black;
+  border-radius: 1rem;
+  border: 2px solid #000;
+
+}
+#model{
+  
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+#model span{
+  
+  top: 2rem;
+  position: relative;
+  left: 12rem;
+  font-size: 1.2rem;
+}
+#model h1{
+  
+  font-size: 1.1rem;
+  position: relative;
+  background: black;
+  width: 6rem;
+  top: 6rem;
+  color: #ffff;
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+}
+#card{
+  background: aliceblue;
+  width: 17rem;
+  margin: auto;
+  box-shadow: 0rem 0rem 1rem 0rem #000;
+  padding: 5rem;
+  border-radius: 1rem;
+}
+#card input[type='text']{
+  padding: 1rem;
+  border-radius: 1rem 0rem 0rem 1rem;
+  border: 1px solid orangered;
+}
+#card input[type='submit']{
+  
+  background: #000;
+  color: #ffff;
+  padding: 1rem;
+  border-radius: 0rem 1rem 1rem 0rem;
+}

@@ -1,0 +1,217 @@
+#course-header
+{
+    background: url('/public/assets/Courses\ Header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 47rem;
+    background-position-y: bottom;
+}
+#course-header #h-info
+{
+    padding: 15rem 3rem;
+    font-size: 1.5rem;
+    width: 70%;
+}
+#course-header #h-info #h-title1
+{
+    font-family: Montserrat;
+    font-size: 6rem;
+    color: orangered;
+    font-weight: 600;
+    margin: 0;
+}
+
+#speciality
+{
+    background-color: #320001;
+    height: 47rem;
+    padding: 9rem 5rem;
+    display: flex;
+    color: black;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+}
+#speciality img
+{
+    height: 20rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+#speciality .carousel-item
+{
+    background-color: white;
+    height: 30rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+}
+
+#speciality #s-info
+{
+    padding: 4rem;
+    text-align: left;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+#speciality #s-info #s-title1
+{
+    font-family: Montserrat;
+    font-size: 4rem;
+    color: white;
+    font-weight: 600er;
+    margin: 0;
+}
+#speciality #s-info #s-title2
+{
+    font-family: Montserrat;
+    font-size: 2rem;
+    color: white;
+    font-weight: 600er;
+    margin-bottom: 2rem;
+}
+
+#course-list
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#course-list #cl-main-title
+{
+    font-family: Montserrat;
+    font-weight: 600er;
+    font-size: 6rem;
+    text-align: center;
+    margin: 2rem;
+}
+#course-list #cl-title1
+{
+    font-family: Montserrat;
+    font-weight: 600er;
+    font-size: 2rem;
+    margin: 3rem 1rem 0rem 7rem;
+    color: orangered;
+}
+#course-list #cl-details
+{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 5rem;
+    border-radius: 1rem;
+}
+#course-list #cl-details #cl1
+{
+    width: 18rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px black;
+}
+#course-list #cl-details #cl1:hover
+{
+    box-shadow: 0px 0px 12px 1px black;
+    transition: 0.5s;
+}
+#course-list #cl-details #cl1 img
+{
+    width: 18rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+#course-list #cl-details #cl1 #cl1-info
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+}
+#course-list #cl-details #cl1 #cl1-name
+{
+    font-family: Montserrat;
+    font-weight: 600er;
+    font-size: 1rem;
+    margin: 0.3rem;
+}
+#course-list #cl-details #cl1 #cl1-author
+{
+    margin: 5rem 0.3rem;
+}
+
+#mentor
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#mentor #m-title
+{
+    font-family: Montserrat;
+    font-weight: 600er;
+    font-size: 6rem;
+    text-align: center;
+    margin: 8rem 2rem 4rem 2rem;
+    background-color: black;
+    color: white;
+}
+#mentor #container
+{
+    display: flex;
+    margin: 0rem 10rem;
+}
+#mentor #container img
+{
+    width: 35rem;
+    box-shadow: 0px 8px 28px -4px black;
+}
+#mentor #container #m-info
+{
+    padding: 2rem;
+}
+#mentor #container #m-info #m-name
+{
+    font-family: Montserrat;
+    font-weight: 600er;
+    font-size: 3rem;
+    margin: 0;
+}
+#mentor #container #m-info #m-work
+{
+    font-family: Montserrat;
+    font-weight: 600er;
+    font-size: 1.5rem;
+}
+
+#impact
+{
+    background-color: orangered;
+    color: white;
+    display: flex;
+    margin-top: 7rem;
+    padding: 2rem;
+}
+#impact img
+{
+    height: 25rem;
+    margin-top: -5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 8px 28px -4px black;
+}
+#impact #im-title
+{
+    font-family: Montserrat;
+    font-weight: 600er;
+    font-size: 4rem;
+    margin: 0;
+}
+#footer
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    padding: 5rem;
+    margin-top: 3rem;
+}

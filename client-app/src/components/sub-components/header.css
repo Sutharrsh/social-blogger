@@ -1,0 +1,72 @@
+.flex{
+    display: flex;
+}
+.Appbar{
+    border-bottom: 0.11rem solid #888;
+    
+}
+.justify-con{
+    justify-content: space-evenly;
+}
+.noneBig{
+    display: none;
+}
+ul li{
+    margin:1rem;
+    list-style: none;
+}
+.mg-1{
+    margin: 1rem;
+}
+.Link{
+    text-decoration: none;
+    color:#555;
+}
+.Link:hover{
+    color: black;
+    transition: 0.5s;
+}
+@media screen and (max-width:940px){
+    .flex{
+        display: block;
+    }
+    .center-nav{
+        text-align: center;
+    }
+    .BG{
+        padding: 0.11rem;
+        background: black;
+        margin: 0.2rem;
+        border-radius: 3rem;
+    }
+    .res{
+        display: flex;
+        justify-content: space-between
+    }
+    .Burgur{
+        flex: none;
+        height: 2rem;
+        width: 2rem;
+    }
+    .none{
+        display: none;
+    }
+    .Burgur:hover{
+        display: flex;
+        transition:0.7s;
+    }
+    .background{
+        transition: 0.5s;
+        background: #000000c2;
+        background-size: cover;
+   
+    margin: -1rem;
+    }
+    .color li{
+        color: #fff;
+        padding-bottom: 1rem;
+    }
+    .Link{
+        color: #fff;
+    }
+}

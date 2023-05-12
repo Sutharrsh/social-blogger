@@ -1,0 +1,65 @@
+.todo-app{
+    height:100vh;
+    color:#000;
+}
+h1{
+    color:#000;
+    font-size:2rem;
+}
+table{
+    margin: auto;
+    border: none;
+    /* table-layout: fixed; */
+    color: brown;
+    background: antiquewhite;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+.add{
+    margin: auto;
+    top: 80;
+    position: relative;
+    top: 15rem;
+}
+.add input{
+   width: 25rem;
+    padding: 0.8rem 1rem;
+    border: none;
+    background: aliceblue;
+    border-radius: 1rem;
+}
+.add button{
+    background: blanchedalmond;
+    border-radius: none;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+
+    width: 6rem;
+    color: brown;
+}
+.table{
+    overflow-y: scroll;
+    height: 15rem;
+    top: 16rem;
+    position: relative;
+    background: aliceblue;
+    width: 30rem;
+    margin: 0rem auto;
+    border-radius: 1rem;
+}
+.table::-webkit-scrollbar{
+    display: none;
+}
+table tr input{
+    width: 21rem;
+    line-break: inherit;
+    background: antiquewhite;
+    border: none;
+    /* height: 3rem; */
+    padding: auto 1rem;
+    padding: 0rem 1rem;
+    color: brown;
+}

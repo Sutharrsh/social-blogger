@@ -1,0 +1,198 @@
+#header
+{
+    background: url('/public/assets/youtube\ header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    background-position-y: center;
+}
+
+#course
+{
+    padding: 5rem;
+    display: flex;
+    margin: 0;
+}
+#course img
+{
+    width: 50rem;
+    border-radius: 1rem;
+    box-shadow: 0px 8px 28px -4px black;
+}
+#course #c-title
+{
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    color: orangered;
+    font-weight: 600;
+}
+#course #info
+{
+    padding: 0rem 2rem;
+    font-size: 1.5rem;
+}
+#course #c-info
+{
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#about
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 5rem;
+    margin: 0;
+    font-size: 1.5rem;
+}
+#about #a-title
+{
+    font-size: 3rem;
+    color: orangered;
+}
+
+#chapters
+{
+    padding: 1rem 5rem;
+    margin: 0;
+}
+#chapters #ch-title
+{
+    font-size: 3rem;
+    color: orangered;
+}
+#chapters #ch
+{
+    border: 1px solid orangered;
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    transition: font-size 0.5s;
+}
+#chapters #ch:hover
+{
+    background-color: orangered;
+    font-size: 2.5rem;
+    color: whitesmoke;
+    transition-timing-function: ease-in;
+}
+
+#why
+{
+    padding: 2rem 5rem;
+    margin: 3rem;
+    border-radius: 0.5rem;
+    background: url('/public/assets/comonk\ orange\ background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: whitesmoke;
+    height: 36rem;
+}
+#why #w-title
+{
+    font-size: 3rem;
+    text-align: center;
+}
+#why #w-container
+{
+    display: flex;
+}
+#why #w-container #w1
+{
+    background-color: whitesmoke;
+    color: orangered;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+#why #w-container #w1:hover
+{
+    background-color: orangered;
+    color: whitesmoke;
+    box-shadow: 0.1rem 0.3rem 0.5rem 0.1rem black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+#instructor
+{
+    display: flex;
+    padding: 3rem;
+    font-size: 1.2rem;
+}
+#instructor #i-info
+{
+    padding: 2rem;
+}
+#instructor img
+{
+    height: 60rem;
+    box-shadow: 0px 8px 28px -4px black;
+}
+#instructor #i-title1
+{
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin: 0;
+}
+#instructor #i-title2
+{
+    font-size: 4rem;
+    font-family: Montserrat;
+    color: orangered;
+    font-weight: 600;
+}
+
+#enroll-button
+{
+    display: flex;
+    justify-content: center;
+}
+
+#certificate
+{
+    display: flex;
+    padding: 3rem;
+    font-size: 1.2rem;
+}
+#certificate img
+{
+    width: 50rem;
+    border-radius: 0.5rem;
+    border: 1px solid blue;
+    box-shadow: 0px 8px 28px -4px black;
+}
+#certificate #ce-info
+{
+    padding: 2rem;
+}
+#certificate #ce-title
+{
+    font-size: 4rem;
+    font-family: Montserrat;
+    color: orangered;
+    font-weight: 600;
+}
+
+#footer
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    padding: 5rem;
+}
